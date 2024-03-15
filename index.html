@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+    <style>
+        .top-line {
+            border: 6px solid hsl(221, 87%, 46%);
+            width: 100%;
+
+
+        }
+
+        .logo {
+            display: flex;
+            justify-content: left;
+            padding: 50px;
+        }
+
+        .Banner {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            flex-direction: row;
+        }
+
+        .table-responsive {
+            overflow-x: hidden;
+            /*border: 15px solid green; */
+            padding: 100px;
+
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 100px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            width: 50px;
+
+        }
+
+        th {
+            width: 50px;
+        }
+
+        .Car-image1 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+            /* Adjust this value to the height of your footer */
+        }
+
+
+
+
+        .table-header {
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+
+        body {
+            border: 2px solid yellow;
+            /*padding: 120px;*/
+            position: relative;
+        }
+
+        .footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="Banner">
+        <div class="logo">
+            <img src="https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png"
+                alt="Car Image" width="200" height="200">
+        </div>
+        <div class="Banner-text">
+            <h1>Western Cape Mobility Department (WCMD)</h1>
+            <h2>Government Motor Transport Fleet Services</h2>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <hr class="top-line">
+        <table>
+            <thead>
+                <tr>
+                    <h1 class="table-header"><u>VEHICLE RECIEVING CHECKLIST</u></h1>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vehicle Registration/GG No.</td>
+                    <td><input type="text" name="vehicleReg"></td>
+                </tr>
+                <tr>
+                    <td>Row 2</td>
+                    <td><input type="text" name="Row 2"></td>
+                </tr>
+                <tr>
+                    <td>Row </td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row </td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row 5</td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row </td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row </td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row </td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row </td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row </td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row 3</td>
+                    <td><input type="text" name="Row 3"></td>
+                </tr>
+                <tr>
+                    <td>Row 4</td>
+                    <td><img src="324-3248183_marilyn-monroe-signature-png.png" alt="signature"></td>
+                </tr>
+                <tr>
+                    <td>Row 5</td>
+                    <td><img src="324-3248183_marilyn-monroe-signature-png.png" alt="signature"></td>
+                </tr>
+                <tr>
+                    <td>Row 5</td>
+                    <td><input type="text" name="Row 5"></td>
+                </tr>
+                <tr>
+                    <td>Row 6</td>
+                    <td><input type="text" name="Row 6"></td>
+                </tr>
+                <tr>
+                    <td>Row 7</td>
+                    <td><input type="text" name="Row 7"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="Car-image1">
+        <img src="https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png"
+            alt="Car Image" width="250" height="400">
+    </div>
+    <div class="footer">
+        <p><b><a href="https://www.westerncape.gov.za/">https://www.westerncape.gov.za/</a></b></p>
+        <p><b>Western Cape Mobility Department (WCMD) | Government Motor Transport Fleet Services</b></p>
+    </div>
+</body>
+
+</html>
