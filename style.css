@@ -1,0 +1,87 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner styles */
+
+.Banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.Banner-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.Banner-text h2 {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+/* Table styles */
+
+.table-responsive {
+    overflow-x: auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #000;
+}
+
+/* Table header styles */
+
+.table-header {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Form input styles */
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Car image styles */
+
+.Car-image1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Car-image1 img {
+    width: 250px;
+    height: auto;
+}
+
+/* Footer styles */
+
+.footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
